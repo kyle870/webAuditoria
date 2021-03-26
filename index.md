@@ -133,8 +133,8 @@
         
             <footer id="footer">
                 <ul>
-                    <li>Osmar Josué Briceño Quintero |</li>
-                    <li>Universidad Nacional de ingeniería |</li>
+                    <li>Osmar Josué Briceño Quintero</li>
+                    <li>Universidad Nacional de Ingeniería</li>
                     <li>2015-0995U &copy;</li>
                 </ul>
             </footer>
