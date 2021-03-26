@@ -1,0 +1,157 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.container{
+    position: relative;
+    width: calc(100% - 100px);
+    min-height: calc(100vh - 200px);
+    min-height: 300px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+header{
+    position: absolute;
+    top: -40px;
+    right: 20px;
+    left: 20px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 2em;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+header ul li a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 8px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+header ul li a:hover{
+    transition: 0.5s;
+    background: #fff;
+    color: #000;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#main{
+    /*transform: translateY(50px);*/
+    align-content: center;
+    position: relative;
+    top: 35px;
+    max-width: 700px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 30px;
+    margin: 50px 10px;
+}
+
+img{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+#perfil{
+    display: none;
+}
+
+#caracteristicas{
+    display: none;
+}
+
+#competencias{
+    display: none;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p, ol>li{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+footer{
+    position: absolute;
+    bottom: -40px;
+    right: 20px;
+    left: 20px;
+    padding: 10px 50px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    /*border: 1px solid rgba(255, 255, 255, 0.25);*/
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li{
+    list-style: none;
+    margin: 0 10px;
+}
